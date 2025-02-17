@@ -1,0 +1,23 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+void cal(int sum , int num,int target,int& cnt)
+{
+     if(sum >target )return ;
+     if (sum == target){
+         cnt++;
+         return;
+     }
+    cal(sum+num,num+1,target,cnt); 
+}
+
+int solution(int n) {
+    int cnt = 0;
+
+    for (int i = 1; i <= n; i++) {
+        cal(i, i + 1, n, cnt);
+    }
+    return cnt;
+}
