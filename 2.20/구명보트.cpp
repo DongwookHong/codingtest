@@ -10,7 +10,7 @@ int solution(vector<int> people, int limit) {
     int cnt = 0;
 
     while (index <= k) {
-        if (people[index] + people[k] <= limit)index++; 
+        if (people[index] + people[k] <= limit)index++;
         k--; 
         cnt++;
     }
