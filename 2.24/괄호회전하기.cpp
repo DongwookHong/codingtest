@@ -44,3 +44,6 @@ int solution(string s) {
 
     return answer;
 }
+
+
+//괄호 문제인줄알고 너무 쉽게생각했는데 너무너무 오래걸린문제였다 ..  결국 못풀어서 인터넷 참고함 
