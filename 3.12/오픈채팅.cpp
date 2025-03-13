@@ -43,6 +43,8 @@ vector<string> solution(vector<string> record) {
 
 
 // 시간 초과 탐색을 하는데 시간이 오래걸 려서 코드 수정이 필요했음 ,
+// vector 에서 탐색으로해서 user를 찾고 하는시간이 O(N)으로 너무오래걸려서 시간초과가 나옴 그래서 gpt 물어보니까
+// map을 활용해서 풀어줬다 . ..  너무 속도 차이가많이나고 가독성도 뛰어나게 바꿔줬다 .. 반성해야겠다 
 
 // #include <string>
 // #include <vector>
